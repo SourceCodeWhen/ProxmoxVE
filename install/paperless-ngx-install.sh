@@ -60,6 +60,7 @@ $STD bash ./configure
 $STD make
 $STD make install
 rm -rf /opt/jbig2enc
+cd .
 msg_ok "Installed JBIG2"
 
 msg_info "Setting up PostgreSQL database"
